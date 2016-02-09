@@ -1,0 +1,135 @@
+/*GLOBAL STYLES*/
+
+/*
+Primary:
+Secondary:
+Third Color:
+*/
+
+body{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Handlee', cursive;
+  background-color: #c6e6ed;
+}
+
+h1, h2, h3{
+  margin: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: #000000;
+}
+
+ul{
+  list-style-type: none;
+}
+
+/*HEADER STYLES*/
+header{
+height: 120px;
+background-color: #99d3df;
+}
+
+#logo h1:hover{
+color: #e92132;
+}
+
+#logo{
+width: 300px;
+position: absolute;
+top: 35px;
+left: 100px;
+}
+
+#menu{
+  position: absolute;
+  top: 35px;
+  right: 100px;
+}
+
+#menu ul{
+  display: inline-block;
+}
+
+#menu li{
+  display: block;
+  float: left;
+}
+
+#menu li:after{
+padding: 0 10px;
+content: " | ";
+}
+
+#menu a:hover{
+  color: #e92132;
+}
+
+#banner-home{
+  height: 250px;
+  background-color: #dddddd;
+  background-size: cover; /*covers entire area of banner*/
+  background: url(../img/map-banner.jpg) center;
+  color:black;
+}
+
+#banner-home h1{
+  text-align: center;
+padding: 90px 0px;
+}
+
+/*Blog Styles Begins*/
+.container{
+  width: 1200px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.blog-1, .blog-2{
+width: 384px;
+float: left;
+margin-right: 24px;
+}
+
+.blog-3{
+  width: 384px;
+  float: left;
+}
+
+.blog-image{
+  width: 300px;
+  height: 200px;
+  margin: 0px auto;
+  padding: 0px 42px;
+}
+
+#blog h2{
+  text-align: center;
+  margin: 10px 0px;
+}
+
+p{
+  width: 300px;
+  padding: 0px 42px;
+  text-align: justify;
+}
+
+.button{
+  padding: 15px 35px;
+  background-color: #99d3df;
+  border: 2px solid #e92132;
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 700;
+  color: #e92132;
+  margin: 10px 0px;
+}
+
+.button:hover{
+  background-color: #e92132;
+  color: #99d3df;
+}
