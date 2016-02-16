@@ -268,3 +268,32 @@ footer{
 #contact li{
   padding: 2px 0px;
 }
+/*--Personal Page Styles--*/
+#personal h1{
+  text-align: center;
+}
+
+#personal_section h3{
+  text-align: center;
+}
+
+.personal_container{
+  width: 1200px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+
+.image-1, .image-2, .image-3, .image-4, .image-5, .image-6{
+width: 384px;
+float: left;
+margin-right: 12px;
+margin-top: 10px;
+}
+
+
+.personal-image{
+  width: 300px;
+  height: 400px;
+  margin: 0px auto;
+  padding: 0px 42px;
+}
